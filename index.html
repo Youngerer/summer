@@ -1,27 +1,140 @@
 <html>
 <head>
-<title>
-Index
-</title>
-   <script src="https://github.com/Youngerer/summer/blob/scripts/index.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>爱来客优</title>
+    
+    
+    <script >
+
+        function getupload() {
+            var code = document.getElementById("code").value;
+            var phone = document.getElementById("phone").value;
+            if (code !=""&& phone !="") {
+                alert('商品编号：'+code+',电话：'+phone+',订单成功！'+',联系电话：17310557925');
+            }
+            else {
+                alert('填写完整订单');
+            }
+        }
+
+    </script>
+
 
 </head>
 <body>
 <div align='center'>
-    <table>
-        <tr></tr>
+
+    <table border="1" style="border:1px solid #808080;">
+       <tr>
+           <td colspan="2">
+               <div align="center">
+               <span style="color:blue;font-size:25px;" >爱来客优</span><br/>推出室内射击，满弹夹（4-6发子弹）1元一次，最低消10元，可获赠QQ表情挂件。<br/>
+                
+               </div>
+           </td>
+       </tr>
+         <tr>
+            <td>VR眼镜，商品编号：001</td>
+            <td>支持Android、IOS,不同尺寸手机，支持资源丰富<br/><span style="color:red;">原价75元，现价35元</span></td>
+        </tr>
         <tr>
-      <td>
-          Title:<input type="text" />
-      </td>
+      <td>VR射击蓝牙仿真游戏手柄，商品编号：002</td>
+       <td>支持Android、IOS,支持资源丰富，外观仿真，摇杆、震动、手柄多功能合一<br /><span style="color:red;">原价160元，现价110元</span></td>
         </tr>
         <tr>
         <td>
-            Information:<textarea style="resize:none;"></textarea>
+            真人CS对战面具(轻战版)，商品编号：003
+         </td>
+        <td>
+            真人CS户外运动护具<br /><span style="color:red;">原价20元，现价15元</span>
         </td>
         </tr>
         <tr>
-        <td><input type='button' value='Updating' onclick='callfunc()' /></td>
+            <td>
+                真人CS对战面具(变形金刚版)，商品编号：004
+            </td>
+            <td>
+                真人CS户外运动护具<br /><span style="color:red;">原价35元，现价20元</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                CS对战面具(生化版) ，商品编号：005         
+            <td>
+                真人CS户外运动护具<br /><span style="color:red;">原价30元，现价15元</span>
+            </td>
+        </tr>
+        <tr>
+        <td>
+            真人CS对战，水弹多用步枪，商品编号：006
+        </td>
+        <td>
+            真人CS对战装备<br /><span style="color:red;">原价120元，现价80元</span>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                真人CS对战，水弹多用散弹枪，商品编号：007
+            </td>
+            <td>
+                真人CS对战装备<br /><span style="color:red;">原价110元，现价70元</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                真人CS对战，水弹多用冲锋枪，商品编号：008
+            </td>
+            <td>
+                真人CS对战装备<br /><span style="color:red;">原价110元，现价70元</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                休闲帽子，商品编号：009
+            </td>
+            <td>
+                服装、服饰<br /><span style="color:red;">原价20元，现价15元</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                四翼驱动无人机，商品编号：010
+            </td>
+            <td>
+                酷玩无人机<br /><span style="color:red;">原价140元，现价110元</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               电动遥控水上快艇，商品编号：011
+            </td>
+            <td>
+                酷玩遥控快艇<br /><span style="color:red;">原价160元，现价110元</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                商品编号<input id="code" type="text" style="width:300px;"/><br/>
+                电话<input id="phone" type="text" style="width:300px;" /><br/>
+                
+            </td>
+            <td>
+                <br/>
+                <span style="color:red;">截屏提交成功的弹窗作为订单依据，优惠先到先得</span>
+                <input type="button" value="提交" onclick="getupload()" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span style="color:red;">注意：店主因业务转移，取货时间为工作日18:00后，取货、验货地点为本店，电话联系！</span>
+            </td>
+           
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span style="color:red;">注意：店主因业务转移，门店转租，租金优惠，173 1055 7925！</span>
+            </td>
+
         </tr>
         </table>
 </div>
