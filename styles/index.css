@@ -7,3 +7,10 @@
     padding:10px;
     width:70%;
 }
+
+.picstyle {
+    height:50px;
+    width:50px;
+    float:left;
+    position:relative;left:40px;
+}
