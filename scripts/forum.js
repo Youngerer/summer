@@ -20,7 +20,12 @@ function forumadd() {
     var phone = document.getElementById('phone').value;
     var content = document.getElementById('content').value;
  
-    alert(phone + '--------' + content + '---------' + getNowFormatDate());
+   Var node={'phone':phone,'content':content,'date':getNowFormatDate(),'punish':'default'};
+   $.getJSON('base.json',function(data){
+     
+     data[data.length]=node;
+   });
+    //alert(phone + '--------' + content + '---------' + getNowFormatDate());
 }
 
 function getNowFormatDate() {
