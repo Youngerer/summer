@@ -7,7 +7,7 @@ $(function () {
  $.getJSON('base.json',function(data){
     for (var i = 0; i < data.length; i++)
         {
-             $('#forumarea').append($("<div style='border:solid 1px'><strong>By:</strong>"+data[i].phone+":"+data[i].content+"-------------------"+data[i].date+"</div>"));
+             $('#forumarea').append($("<div style='border:solid 1px'><strong>By:</strong>"+data[i].phone+":"+data[i].content+"  -- --  "+data[i].date+"</div>"));
         }
  
  });
