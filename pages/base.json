@@ -1,6 +1,14 @@
-﻿{
-    "phone": "1",
-     "date": "111111",
-     "content":"testing content",
-     "punish": "green"
-}
+[
+    {
+        "phone": "1",
+         "date": "111111",
+         "content":"testing content1",
+         "punish": "green"
+    },
+    {
+        "phone": "2",
+         "date": "22222",
+         "content":"testing content2",
+         "punish": "red"
+    }
+]
