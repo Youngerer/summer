@@ -1,6 +1,6 @@
 ﻿function myconsole()
 {
-  alert('咨询已提交');
+  window.location.href='pages/forum.html';
 
 }
 
