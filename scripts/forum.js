@@ -16,15 +16,26 @@ $(function () {
 
 
 function forumadd() {
- 
+  var doc = new ActiveXObject("Msxml2.DOMDocument.3.0"); 
+       doc.load("base.xml");
+   
     var phone = document.getElementById('phone').value;
     var content = document.getElementById('content').value;
- 
-   var node={'phone':phone,'content':content,'date':getNowFormatDate(),'punish':'default'};
-   $.getJSON('base.json',function(data){
+   
+     var newnode = doc.createElement("node");
+   
+   newnode.setAttribute("phone", phone);
+   newnode.setAttribute("content", content);
+   newnode.setAttribute("date",getNowFormatDate() );
+   newnode.setAttribute("punish", "default");
+   
+    doc.appendChild(newnode);
+   doc.save("base.xml");
+   //var node={'phone':phone,'content':content,'date':getNowFormatDate(),'punish':'default'};
+   //$.getJSON('base.json',function(data){
      
-     data[data.length]=node;
-   });
+     //data[data.length]=node;
+   //});
     //alert(phone + '--------' + content + '---------' + getNowFormatDate());
 }
 
