@@ -2,12 +2,12 @@
 
 $(function () {
 
-   $('#forumarea').append($("<div>aaaaaaaaaaaaaaaaa</div>"));
+   
     
  $.getJSON('base.json',function(data){
     for (var i = 0; i < data.length; i++)
         {
-             
+             $('#forumarea').append($("<div><strong>By:</strong>'"+data[i].phone+"'</div>"));
         }
  
  });
