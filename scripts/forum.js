@@ -16,7 +16,7 @@ function forumadd() {
     var phone = document.getElementById('phone').value;
     var content = document.getElementById('content').value;
  
-    alert(phone + '--------' + conetent + '---------' + getNowFormatDate());
+    alert(phone + '--------' + content + '---------' + getNowFormatDate());
 }
 
 function getNowFormatDate() {
