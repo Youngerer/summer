@@ -20,7 +20,7 @@ function forumadd() {
     var phone = document.getElementById('phone').value;
     var content = document.getElementById('content').value;
  
-   Var node={'phone':phone,'content':content,'date':getNowFormatDate(),'punish':'default'};
+   var node={'phone':phone,'content':content,'date':getNowFormatDate(),'punish':'default'};
    $.getJSON('base.json',function(data){
      
      data[data.length]=node;
