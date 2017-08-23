@@ -14,3 +14,16 @@
                 alert('填写完整订单');
             }
         }
+$(function(){
+  
+$("#pro1,#pro2,#pro3,#pro4,#pro5").hide();
+    $('#protitle').click(function () {
+        $('div:hidden').show();
+    });
+    $("#pro1,#pro2,#pro3,#pro4,#pro5").click(function () {
+        $(this).slideUp('slow');
+    })
+
+
+});
+
