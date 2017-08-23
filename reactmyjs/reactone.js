@@ -4,3 +4,5 @@ var HelloMessage = React.createClass({
         return React.createElement('div', null, 'Hello ', this.props.name);
     }
 });
+
+ReactDOM.render(React.createElement(HelloMessage, { name: 'react' }), document.getElementById('app'));
