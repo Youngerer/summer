@@ -41,3 +41,9 @@
 .arrow_init {
     transform: rotate(180deg);
 }
+
+.navstyle {
+    text-decoration:none;
+    margin-left:10px;
+    font-size:16pt;
+}
