@@ -21,7 +21,7 @@
             <a href="">Reactjs</a>
             <a href="">Angularjs</a>
             <a href="">Nodejs</a>
-			<a href="pages/draw.html">IDraw</a>
+			<a href="pages/">IDraw</a>
             <a href="">AboutMe</a>
             <input type="button" id="getjson" value="test" onclick="getJson()"/>
         </div>

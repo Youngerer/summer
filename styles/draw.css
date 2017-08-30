@@ -1,0 +1,80 @@
+﻿ body 
+ {
+    background-color:#c6c6b2; 
+ }
+
+ .drawarea 
+ {
+    background-color: white;
+ 
+ }
+
+.toolbox {
+    border:solid 1px;
+    width:650px;
+    height:50px;
+    border-color:white;
+}
+
+.colorpick_red {
+    border-color:red;
+    border:inset 2px;
+    width:20px;
+    height:20px;
+    background-color:red;
+    float:left;
+}
+
+.colorpick_orange {
+    border-color:orange;
+    border:inset 2px;
+    width:20px;
+    height:20px;
+    background-color:orange;
+    float:left;
+}
+
+.colorpick_yellow {
+    border-color:yellow;
+    border:inset 2px;
+    width:20px;
+    height:20px;
+    background-color:yellow;
+    float:left;
+}
+.colorpick_green {
+    border-color:green;
+    border:inset 2px;
+    width:20px;
+    height:20px;
+    background-color:green;
+    float:left;
+}
+.colorpick_blue {
+    border-color:blue;
+    border:inset 2px;
+    width:20px;
+    height:20px;
+    background-color:blue;
+    float:left;
+}
+.colorpick_lightblue {
+    border-color:lightblue;
+    border:inset 2px;
+    width:20px;
+    height:20px;
+    background-color:lightblue;
+    float:left;
+}
+.colorpick_purple {
+    border-color:purple;
+    border:inset 2px;
+    width:20px;
+    height:20px;
+    background-color:purple;
+    float:left;
+}
+
+.colorSelect {
+    border-color:black;
+}
