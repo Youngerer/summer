@@ -16,13 +16,24 @@
         }
 $(function(){
   
-$("#pro1,#pro2,#pro3,#pro4,#pro5").hide();
-    $('#protitle').click(function () {
-        $('div:hidden').show();
+ $("#pro1,#pro2,#pro3,#pro4,#pro5").hide();
+
+    $('#arrow').click(function () {
+      
+        if ($('#arrow').hasClass('arrow_init')) {
+            $('div:hidden').show();
+            $('#arrow').removeClass("arrow_init");
+        }
+        else {
+            $('#arrow').addClass("arrow_init");
+            $("#pro1,#pro2,#pro3,#pro4,#pro5").hide();
+        }
     });
+
+
     $("#pro1,#pro2,#pro3,#pro4,#pro5").click(function () {
         $(this).slideUp('slow');
-    })
+    });
 
 
 });

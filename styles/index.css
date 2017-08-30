@@ -1,9 +1,32 @@
-﻿
+﻿.divstyle_bottom {
+    border:solid 1px #0a0a0a;
+    border-radius:0px 0px 15px 15px;
+    height:40px;
+    padding:10px;
+    width:70%;
+}
+
+.divstyle_nav {
+    border:solid 1px #0a0a0a;
+    border-radius:0px 0px 0px 0px;
+    height:15px;
+    padding:10px;
+    width:70%;
+    
+}
 
 .divstyle {
     border:solid 1px #0a0a0a;
-    border-radius:15px 15px 15px 15px;
+    border-radius:0px 0px 0px 0px;
     height:70px;
+    padding:10px;
+    width:70%;
+}
+
+.divstyle_title {
+    border:solid 1px #0a0a0a;
+    border-radius:15px 15px 0px 0px;
+    height:40px;
     padding:10px;
     width:70%;
 }
@@ -13,4 +36,8 @@
     width:50px;
     float:left;
     position:relative;left:40px;
+}
+
+.arrow_init {
+    transform: rotate(180deg);
 }
